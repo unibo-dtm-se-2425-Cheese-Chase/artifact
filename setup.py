@@ -1,7 +1,6 @@
-from setuptools import setup, find_packages
+from setuptools import setup, find_packages, Command
 import pathlib
 import subprocess
-import distutils.cmd
 
 # current directory
 here = pathlib.Path(__file__).parent.resolve()
@@ -48,7 +47,7 @@ version = get_version_from_git()
 print(f"Detected version {version} from git describe")
 
 
-class GetVersionCommand(distutils.cmd.Command):
+class GetVersionCommand(Command):
     """A custom command to get the current project version inferred from git describe."""
 
     description = 'gets the project version from git describe'
@@ -64,7 +63,7 @@ class GetVersionCommand(distutils.cmd.Command):
         print(version)
 
 
-class GetMinimumPythonVersion(distutils.cmd.Command):
+class GetMinimumPythonVersion(Command):
     """A custom command to get the current project commands inferred from `requirements.txt`."""
 
     description = 'gets the project\'s minimum Python version from `.python-version`'
@@ -84,15 +83,15 @@ url = 'https://github.com/aequitas-aod/my_project'
 
 
 setup(
-    name='my_project',  # Required
+    name='CheeseChase', 
     version=version,
-    description='Description of the project here',
+    description='Cheese-Chase is a modern remake of the classic arcade game Pac-Man, reimagined in the world of Tom & Jerry.',
     license='Apache 2.0 License',
     long_description=long_description,
     long_description_content_type='text/markdown',
     url=url,
-    author='Name Surname',
-    author_email='name.surname@organization.domain',
+    author='Francesca Folli, Gaia Bellachioma, Asia Zanotti',
+    author_email='francesca.folli2@studio.unibo.it, gaia.bellachioma@studio.unibo.it, asia.zanotti@studio.unibo.it',
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
