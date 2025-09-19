@@ -8,8 +8,6 @@ jobs:
       # Only one release job at a time. Strictly sequential.
       group: deploy
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
