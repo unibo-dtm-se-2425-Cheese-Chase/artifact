@@ -1,3 +1,21 @@
+## [1.1.0](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/compare/1.0.0...1.1.0) (2025-09-24)
+
+
+### Features
+
+* **model:** add Entity class for game characters and movements ([06d3957](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/commit/06d39576ef4166217fc3b301a2b935686177490f))
+
+
+### General maintenance
+
+* **resources:** add maze1 and maze2 layouts with rotation files ([2e84ac2](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/commit/2e84ac226decd1aef02f72011f5ed77d838b9ef4))
+* **resources:** add PressStart2P-Regular.ttf font ([9584318](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/commit/9584318bc5c0a862857503fc2da5da568e34c0a3))
+
+
+### Refactoring
+
+* **model:** add Vector2 utility class ([3d4c34c](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/commit/3d4c34c10ac493134a874734be3501b45c6414cc))
+
 ## 1.0.0 (2025-09-23)
 
 
