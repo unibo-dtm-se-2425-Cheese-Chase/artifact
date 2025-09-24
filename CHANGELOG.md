@@ -1,3 +1,15 @@
+## [1.2.0](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/compare/1.1.0...1.2.0) (2025-09-24)
+
+
+### Features
+
+* **view:** add Animator and sprite modules for game animations ([5d650d1](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/commit/5d650d12fb355b28bb1b9d63c503c814caa02206))
+
+
+### General maintenance
+
+* **resources:** add spritesheet2.png for game sprites ([cc97383](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/commit/cc973831889d8c2b051942447c1d326bc8ab2280))
+
 ## [1.1.0](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/compare/1.0.0...1.1.0) (2025-09-24)
 
 
