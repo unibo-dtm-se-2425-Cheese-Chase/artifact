@@ -1,3 +1,10 @@
+## [1.3.0](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/compare/1.2.0...1.3.0) (2025-09-24)
+
+
+### Features
+
+* **model:** add MazeBase, Maze1, Maze2 classes and MazeData loader ([a2c1563](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/commit/a2c1563ae4c05c306ada481730a8492207f1eb4e))
+
 ## [1.2.0](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/compare/1.1.0...1.2.0) (2025-09-24)
 
 
