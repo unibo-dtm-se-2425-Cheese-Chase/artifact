@@ -1,3 +1,10 @@
+## [1.5.0](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/compare/1.4.0...1.5.0) (2025-09-27)
+
+
+### Features
+
+* **controller:** add Pause class to manage game pausing ([e89be5f](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/commit/e89be5f983db6be28cfffc68e3f61a556f906189))
+
 ## [1.4.0](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/compare/1.3.0...1.4.0) (2025-09-27)
 
 
