@@ -1,3 +1,10 @@
+## [1.6.0](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/compare/1.5.0...1.6.0) (2025-09-27)
+
+
+### Features
+
+* **model:** add mouse and cheeses entities ([96a29e5](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/commit/96a29e5759f3e9362f510c180a3049385f9c0f3e))
+
 ## [1.5.0](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/compare/1.4.0...1.5.0) (2025-09-27)
 
 
