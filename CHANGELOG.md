@@ -1,3 +1,15 @@
+## [1.4.0](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/compare/1.3.0...1.4.0) (2025-09-27)
+
+
+### Features
+
+* **model:** add Cat entity and its modes for state behavior ([aaa78d1](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/commit/aaa78d1333b67e473f699c9dee0b3f2abb58715e))
+
+
+### General maintenance
+
+* **app:** add __init__.py and __main__.py for package setup and entry point ([66cc2c1](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/commit/66cc2c1b01e40833c2ed327c5fe420ba68efcf62))
+
 ## [1.3.0](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/compare/1.2.0...1.3.0) (2025-09-24)
 
 
