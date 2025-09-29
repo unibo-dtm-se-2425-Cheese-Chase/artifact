@@ -1,3 +1,12 @@
+## [1.7.0](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/compare/1.6.0...1.7.0) (2025-09-29)
+
+
+### Features
+
+* **controller:** add EventsManager for input and events handling ([bc32901](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/commit/bc32901d452ee01fb0580dc8e8c4bbb01ec9ca9a))
+* **controller:** add LevelManager for game state, level progression, and resets ([9efa287](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/commit/9efa28740721068b7d0654d8743919477d13453f))
+* **model:** add Node and NodeGroup for maze graph and path management ([2149a39](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/commit/2149a3967c658a285d307ce59b5bb9f438a9b5dc))
+
 ## [1.6.0](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/compare/1.5.0...1.6.0) (2025-09-27)
 
 
