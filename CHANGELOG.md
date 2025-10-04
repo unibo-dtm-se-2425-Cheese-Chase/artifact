@@ -1,3 +1,12 @@
+## [1.8.0](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/compare/1.7.0...1.8.0) (2025-09-30)
+
+
+### Features
+
+* **controller:** add GameController to orchestrate game flow ([71b0584](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/commit/71b05844831fafccb1e51eebd6d5a39d8eabaeb3))
+* **view:** add GameView for rendering game state ([9bd81c3](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/commit/9bd81c34b380ce3665036fb428324568af9fb9bd))
+* **view:** add Text and TextGroup classes for rendering HUD and messages ([8432494](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/commit/8432494b7aef29bcbdff939d820819026d257a80))
+
 ## [1.7.0](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/compare/1.6.0...1.7.0) (2025-09-29)
 
 
