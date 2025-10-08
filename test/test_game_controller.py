@@ -1,12 +1,6 @@
 import unittest
 from unittest.mock import MagicMock, patch
-
-
-# Prevent pygame window creation during tests
-with patch("pygame.init"), \
-     patch("pygame.display.set_mode"), \
-     patch("pygame.time.Clock"):
-    from CheeseChase.controller.game_controller import GameController
+from CheeseChase.controller.game_controller import GameController
 
 
 class TestGameController(unittest.TestCase):
