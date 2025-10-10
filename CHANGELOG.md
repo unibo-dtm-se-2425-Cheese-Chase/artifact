@@ -1,3 +1,23 @@
+## [1.8.1](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/compare/1.8.0...1.8.1) (2025-10-10)
+
+
+### Bug Fixes
+
+* add missing __init__.py files so subpackages are included in the distribution ([3f829a4](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/commit/3f829a49ebc59566088c042f138d42576a48b2fc))
+
+
+### Tests
+
+* add unit tests for GameController initialization, startGame, update cycle, entity visibility, and score updates ([063542e](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/commit/063542ef8cda43133a9f032ea79e6533972d3414))
+* prevent pygame window during unittest by bootstrapping headless mode in tests/__init__.py ([5d748c6](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/commit/5d748c61787e66659e71ea6a0d1ee2506bcc1c1d))
+* remove redundant pygame patching in tests, use headless bootstrap instead ([54a7b7f](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/commit/54a7b7f143759af94fde80fe72c003b1146536e8))
+
+
+### General maintenance
+
+* add package entry points and test __init__.py ([2b7f833](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/commit/2b7f83355a4cf490803a57aef6684dd5b1076c37))
+* fix deploy.yml minor error ([1e2640e](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/commit/1e2640e34bff1e786f9891ee6c72d48263081981))
+
 ## [1.8.0](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/compare/1.7.0...1.8.0) (2025-09-30)
 
 
