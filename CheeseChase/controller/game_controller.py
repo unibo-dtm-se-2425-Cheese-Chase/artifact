@@ -1,6 +1,5 @@
 import pygame
 from pygame.locals import *
-from sklearn import base
 from ..model.constants import *
 from ..model.mouse import Mouse
 from ..model.nodes import NodeGroup
@@ -52,7 +51,7 @@ class GameController(object):
         
         self.mouse = Mouse(self.nodes.getNodeFromTiles(*self.mazedata.obj.mouseStart))
         self.cheeses = CheeseGroup(str(maze_txt), self.mazesprites)
-        
+
         self.cats = CatGroup(self.nodes.getStartTempNode(), self.mouse)
 
         self.cats.cat2.setStartNode(self.nodes.getNodeFromTiles(*self.mazedata.obj.addOffset(2, 3)))
