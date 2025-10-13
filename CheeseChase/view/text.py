@@ -1,6 +1,7 @@
 import pygame
 from ..model.vector import Vector2
 from ..model.constants import *
+from importlib import resources
 
 class Text(object):
     def __init__(self, text, color, x, y, size, time=None, id=None, visible=True):
@@ -14,7 +15,8 @@ class Text(object):
         self.lifespan = time
         self.label = None
         self.destroy = False
-        self.setupFont("CheeseChase/resources/PressStart2P-Regular.ttf")
+        font_path = resources.files("CheeseChase.resources") / "PressStart2P-Regular.ttf"
+        self.setupFont(str(font_path))
         self.createLabel()
 
     def setupFont(self, fontpath):

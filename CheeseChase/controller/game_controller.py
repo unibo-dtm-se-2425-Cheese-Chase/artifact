@@ -1,5 +1,6 @@
 import pygame
 from pygame.locals import *
+from sklearn import base
 from ..model.constants import *
 from ..model.mouse import Mouse
 from ..model.nodes import NodeGroup
@@ -13,6 +14,7 @@ from ..model.mazedata import MazeData
 from .events_manager import EventsManager
 from .levels_manager import LevelManager
 from ..view.game_view import GameView 
+from importlib import resources
 
 class GameController(object):
     def __init__(self):
@@ -38,13 +40,19 @@ class GameController(object):
 
     def startGame(self):      
         self.mazedata.loadMaze(self.level)
-        self.mazesprites = MazeSprites("CheeseChase/resources/"+self.mazedata.obj.name+".txt", "CheeseChase/resources/"+self.mazedata.obj.name+"_rotation.txt")
+        base = resources.files("CheeseChase.resources")
+        maze_txt = base / f"{self.mazedata.obj.name}.txt"
+        rotation_txt = base / f"{self.mazedata.obj.name}_rotation.txt"
+        self.mazesprites = MazeSprites(str(maze_txt), str(rotation_txt))
         self.setBackground()
-        self.nodes = NodeGroup("CheeseChase/resources/"+self.mazedata.obj.name+".txt")
+        self.nodes = NodeGroup(str(maze_txt))
+        
         self.mazedata.obj.setPortalPairs(self.nodes)
         self.mazedata.obj.connectHomeNodes(self.nodes)
+        
         self.mouse = Mouse(self.nodes.getNodeFromTiles(*self.mazedata.obj.mouseStart))
-        self.cheeses = CheeseGroup("CheeseChase/resources/"+self.mazedata.obj.name+".txt", self.mazesprites)
+        self.cheeses = CheeseGroup(str(maze_txt), self.mazesprites)
+        
         self.cats = CatGroup(self.nodes.getStartTempNode(), self.mouse)
 
         self.cats.cat2.setStartNode(self.nodes.getNodeFromTiles(*self.mazedata.obj.addOffset(2, 3)))

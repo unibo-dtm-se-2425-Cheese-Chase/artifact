@@ -2,6 +2,8 @@ import pygame
 from ..model.constants import *
 import numpy as np
 from .animation import Animator
+from importlib import resources
+
 
 BASETILEWIDTH = 16
 BASETILEHEIGHT = 16
@@ -9,10 +11,12 @@ DEATH = 5
 
 class Spritesheet(object):
     def __init__(self):
-        self.sheet = pygame.image.load("CheeseChase/resources/spritesheet2.png").convert()
+        img_path = resources.files("CheeseChase.resources") / "spritesheet2.png"
+        self.sheet = pygame.image.load(str(img_path)).convert()
         transcolor = self.sheet.get_at((0,0))
         self.sheet.set_colorkey(transcolor)
-        
+
+
     def getImage(self, x, y, width, height):
         x *= TILEWIDTH
         y *= TILEHEIGHT
