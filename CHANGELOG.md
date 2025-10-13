@@ -1,3 +1,10 @@
+## [1.8.2](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/compare/1.8.1...1.8.2) (2025-10-13)
+
+
+### Bug Fixes
+
+* including resources folder in distribution ([9db58a8](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/commit/9db58a8041cfe7a762581a6bd87954e5b3798bc0))
+
 ## [1.8.0](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/compare/1.7.0...1.8.0) (2025-09-30)
 
 
