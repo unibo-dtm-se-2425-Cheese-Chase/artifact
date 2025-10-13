@@ -1,3 +1,11 @@
+## [1.8.3](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/compare/1.8.2...1.8.3) (2025-10-13)
+
+
+### Bug Fixes
+
+* deleted wrong import ([5b9a81f](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/commit/5b9a81f40f388fa8238365843bb510a135850d28))
+* load resources using importlib.resources for PyPI compatibility ([8833cc7](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/commit/8833cc7a5416c36ee8264d34ec5c16fd16727b4d))
+
 ## [1.8.2](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/compare/1.8.1...1.8.2) (2025-10-13)
 
 
