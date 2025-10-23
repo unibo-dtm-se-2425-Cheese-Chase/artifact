@@ -14,6 +14,8 @@ class Animator(object):
         self.finished = False
 
     def update(self, dt):
+        if not self.frames:
+            return None
         if not self.finished:
             self.nextFrame(dt)
         if self.current_frame == len(self.frames):
@@ -22,7 +24,7 @@ class Animator(object):
             else:
                 self.finished = True
                 self.current_frame -= 1
-   
+                
         return self.frames[self.current_frame]
 
     def nextFrame(self, dt):
