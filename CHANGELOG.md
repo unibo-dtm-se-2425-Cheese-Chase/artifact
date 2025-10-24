@@ -1,3 +1,19 @@
+## [1.8.4](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/compare/1.8.3...1.8.4) (2025-10-24)
+
+
+### Performance improvements
+
+* **view:** added an if statement in the upgrade method of the Animator for completeness ([28ddc0d](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/commit/28ddc0dae9429cec5a4d2c614e431faa4bd02f1f))
+
+
+### Tests
+
+* add entity tests ([5abece3](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/commit/5abece34f0ca38399e3974c4859b6a5eedee4100))
+* add pauser tests ([0792073](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/commit/0792073c3cc28d02cbaf5196abe2408b1617485b))
+* add unittests for event_manager.py ([7ce1b1a](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/commit/7ce1b1ac877512f8d0a8d5020deb5a1ab18f39cf))
+* add unittests for level_manager.py ([b888258](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/commit/b8882584fdcceb2ed381e131820c64e45d6a41ee))
+* unittests fro mouse and cats entities ([08baa10](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/commit/08baa1065cb894470288709eba5a37473380ecd3))
+
 ## [1.8.3](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/compare/1.8.2...1.8.3) (2025-10-13)
 
 
