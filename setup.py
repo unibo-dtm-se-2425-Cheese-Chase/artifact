@@ -90,8 +90,8 @@ setup(
     long_description=long_description,
     long_description_content_type='text/markdown',
     url=url,
-    author='Francesca Folli, Gaia Bellachioma, Asia Zanotti',
-    author_email='francesca.folli2@studio.unibo.it, gaia.bellachioma@studio.unibo.it, asia.zanotti@studio.unibo.it',
+    author='Francesca Folli, Gaia Bellachioma',
+    author_email='francesca.folli2@studio.unibo.it, gaia.bellachioma@studio.unibo.it',
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
