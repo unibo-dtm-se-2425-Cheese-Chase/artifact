@@ -1,3 +1,22 @@
+## [1.9.0](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/compare/1.8.4...1.9.0) (2025-10-28)
+
+
+### Features
+
+* **docs:** update README with description, project structure, installation process and controls ([23f3124](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/commit/23f3124a04568292342cdb232bce2a839de91dea))
+
+
+### Tests
+
+* unittest for game view ([b9ba319](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/commit/b9ba319b9dcc706958fe92460bd2fdc46ee973aa))
+* unittests for cats' modes ([f693592](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/commit/f693592b061d7dd8400c474672c7761c58b35ee8))
+* unittests for game's sprites ([0879e9a](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/commit/0879e9a3054decca6d89a7ce602bcb2a80d8a1d9))
+
+
+### General maintenance
+
+* **ci:** enable CI trigger on README change ([b219728](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/commit/b219728a11156219e1ec10c02f49e80ab91dd50c))
+
 ## [1.8.4](https://github.com/unibo-dtm-se-2425-Cheese-Chase/artifact/compare/1.8.3...1.8.4) (2025-10-25)
 
 
